@@ -1,0 +1,8 @@
+module MrzDetection {
+    umbrella header "MrzDetection.h"
+    export *
+
+    explicit module Private {
+        header "ExtremeCalculator.h"
+    }
+}
